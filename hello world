@@ -4,5 +4,10 @@
       <script> alert("Hello World"); </script>
    </head>
    <body>
+   <button> 
+   <input type="button"
+value="Click Me!"
+onclick="var yourName = prompt('Who are you?', 'Your Name'); alert('Your Name is ' + yourName);">
+   </button> 
    </body>
 </html>
